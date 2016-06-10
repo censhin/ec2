@@ -6,7 +6,8 @@ This role provisions an AWS EC2 instance for your account.
 Requirements
 ------------
 
-This role requires Ansible 1.4 or higher and boto for EC2.
+- python >= 2.6
+- boto
 
 Role Variables
 --------------
