@@ -1,2 +1,12 @@
 ---
 # tasks file for ec2
+
+- ec2:
+    key_name: {{ ec2_key }}
+    instance_type: {{ ec2_instance }}
+    image: {{ ec2_image }}
+    wait: {{ ec2_wait }}
+    group: {{ ec2_group }}
+    count: {{ ec2_count }}
+    vpc_subnet_id: {{ ec2_vpc_subnet_id }}
+    assign_public_ip: {{ ec2_assign_public_ip }}

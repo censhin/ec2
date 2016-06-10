@@ -1,2 +1,11 @@
 ---
 # defaults file for ec2
+
+ec2_key: mykey
+ec2_instance: t2.micro
+ec2_image: ami-a4827dc9
+ec2_wait: yes
+ec2_group:
+ec2_count: 1
+ec2_vpc_subnet_id: subnet-12345
+ec2_assign_public_ip: yes
