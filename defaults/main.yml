@@ -39,5 +39,5 @@ ec2_validate_certs: yes
 ec2_volumes:
 ec2_vpc_subnet_id:
 ec2_wait: yes
-ec2_wait_time_out: 300
+ec2_wait_timeout: 300
 ec2_zone:
